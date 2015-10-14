@@ -4,6 +4,7 @@ class Livro
 	#attr_reader :preco
 	attr_accessor :preco #Este metodo faz o trabalho dos dois acima
 	attr_reader   :categoria
+	attr_reader   :autor
 
    def initialize(autor, isbn = "1", numero_de_paginas, preco, categoria)
       @autor = autor
